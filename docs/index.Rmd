@@ -53,6 +53,7 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 class: inverse center middle
 layout: false
 
+----
 ## 1. Non-statistical sampling
 
 ---
@@ -111,7 +112,7 @@ ISA 530에 의거, 실질적 세부 테스트를 위한 비통계적 샘플링 (
 
 
 ---
-### 확신 지수 (Assurance factor)
+### Assurance factor
 
 ```{r echo=FALSE, fig.cap="", fig.align='center', out.width = '95%'}
 knitr::include_graphics("AssuranceFactorTable.png")
@@ -270,6 +271,8 @@ $$ Expected \ Misstatement + 10\% \ of \ (Tolerable \ Misstatement \ – \ Expec
 ---
 layout: false
 class: inverse center middle
+
+----
 ## 2. Audit Sampling—Tests of Control
 
 ---
@@ -415,6 +418,8 @@ knitr::include_graphics("Others_daily.png")
 ---
 layout: false
 class: inverse center middle
+
+----
 ## 3. Audit Sampling—Attribute Sampling
 
 ---
@@ -500,6 +505,8 @@ knitr::include_graphics("Attribute.png")
 ---
 layout: false
 class: inverse center middle
+
+----
 ## 4. High Value Scoping (HVS)
 
 ---
