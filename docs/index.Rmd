@@ -50,6 +50,18 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ## 4. High Value Scoping (HVS)
 
 ---
+
+## Sample Design and Selection
+
+```{r echo=FALSE, fig.cap="", fig.align='center', out.width = '90%'}
+knitr::include_graphics("sample_design_selection.png")
+```
+
+General Audit Manual의 표본 크기**(Size)**를 결정하고 표본의 선택**(Selection)** 방법에 대하여 정리  
+
+각 Sampling 방법에 따라서 표본 크기를 정하는 Guide Line이 있으며 표본의 선택 방법은 위험의 평가와 감사 대상 항목의 특성에 따라서 적절하게 선택 적용
+
+---
 class: inverse center middle
 layout: false
 
@@ -65,7 +77,7 @@ background-size: 10%
 ---
 ### Introduction
 
-ISA 530에 의거, 실질적 세부 테스트를 위한 비통계적 샘플링 (non-statistical sampling)에 대한 내용
+(ISA 530) 실질적 세부 테스트를 위한 비통계적 샘플링 (non-statistical sampling)에 대한 내용
 
 ### Definitions
 
@@ -81,13 +93,13 @@ ISA 530에 의거, 실질적 세부 테스트를 위한 비통계적 샘플링 (
 ---
 ### Sample Design
 
-감사인은 모집단을 정의한 다음, 해당 모집단이 완전하고 감사 목적에 적합한지 평가해야함  
+감사인은 모집단을 정의한 다음, 해당 모집단이 완전하고 감사 목적에 적합한지 평가  
 
 모집단을 계층화 (stratification) 할지 여부는, 식별된 위험을 고려하여 전기의 테스트 결과를 통해 결정  
 
 모집단내 항목들의 성격이 동질적이지 않아 계층화가 이루어져아하는 경우, 이러한 특성에 의해 왜곡표시의 가능성이 변동할 수 있음(예를 들어, 모집단 내의 특정 항목에는 상당한 위험이 있고 다른 항목은 그렇지 않을 경우, 복잡성이나 기타 특성에 따라 왜곡 표시되기 쉬운 항목이 있을 경우)  
 
-감사인은 샘플링 단위를 결정할 시 다음의 factor들을 고려해야함
+감사인은 샘플링 단위를 결정할 시 다음의 factor들을 고려
 
 1. 감사 목표(즉, 경영진 주장에 대한 테스트)
 2. 수행할 감사 절차의 성격
@@ -97,9 +109,9 @@ ISA 530에 의거, 실질적 세부 테스트를 위한 비통계적 샘플링 (
 ---
 ### Sample Size
 
-감사인은 샘플링 위험을 수용 가능한 낮은 수준으로 줄이기에 충분한 샘플 크기를 결정해야 함 
+감사인은 샘플링 위험을 수용 가능한 낮은 수준으로 줄이기에 충분한 샘플 크기를 결정
 
-실질적 세부 내역 테스트를 위한 표본 크기를 결정할 시, 감사인은 다음 변수를 설정함
+실질적 세부 내역 테스트를 위한 표본 크기를 결정할 시, 감사인은 다음 변수를 설정
 
 1. 모집단의 총 잔액
 2. 샘플링 대상이 모집단내 항목의 크기 (적용가능한 경우)
@@ -122,7 +134,7 @@ knitr::include_graphics("AssuranceFactorTable.png")
 ---
 ### Tolerable Misstatement
 
-대부분의 경우, 수용 가능한 왜곡표시는 수행 중요성과 같으나, 감사인의 판단에 의해 수용 가능한 왜곡표시가 수행 중요성보다 낮은 경우의 예는 다음와 같음
+대부분의 경우, 수용 가능한 왜곡표시는 수행 중요성과 같으나, 감사인의 판단에 의해 수용 가능한 왜곡표시가 수행 중요성보다 낮은 경우의 예
 
 1. 과거 경험에 근거한 실제 및 추정 왜곡 표시가 큰 경우
 2. 경영진이 수정 권고에 대해 일반적으로 거부감이 있는 경우
@@ -149,7 +161,7 @@ knitr::include_graphics("369.png")
 
 ### 3-6-9 -Con.
 
-이 샘플링 방식은 중대한 위험이 있는지 여부에 관계없이 사용이 가능함. (즉, 심각한 위험이 있는 경우와 심각한 위험이 없는 경우 모두 사용이 가능함)
+이 샘플링 방식은 중대한 위험이 있는지 여부에 관계없이 사용이 가능함 (즉, 심각한 위험이 있는 경우와 심각한 위험이 없는 경우 모두 사용이 가능함)
 
 3-6-9 기법은 왜곡 표시가 예상되지 않는 소규모 모집단에 대해서 표본 선택을 용이하게 다음 위해서 사용이 가능함
 해당 표본 크기의 결정은 수학적인 중대한 위험의 추정에 기반하며, 통제의 운영 효율성에 대한 테스트 및 실질적인 분석 절차에 대한 의존을 기반하지 않음
@@ -164,13 +176,13 @@ RSM KR Comment : 해당 내용은 위험이 낮은 경영자의 주장에 감사
 ### Sample Selection Methods
 
 통계적 샘플링 시, 각 샘플링 단위가 선택될 확률이 정해져 있으나, 비통계적 샘플링 시에는 감사인의 판단이 사용됨
-주요 표본 추출 방법은 systematic selection, random, haphazard 가 있음
+주요 표본 추출 방법은 Systematic selection(MUS), Random, Haphazard 가 있음
 
 감사인은 다음의 세가지 기법을 통해서 편향 (Bias) 위험을 완화하며 대표적인 비통계적 표본을 추출할 수 있음
 
-1. Monetary unit selection 화폐단위 샘플링
-2. Random selection
-3. Haphazard selection
+#### 1. Monetary unit selection 화폐단위 샘플링
+#### 2. Random selection
+#### 3. Haphazard selection
 
 비통계적 샘플링 시, 감사인은 먼저 모집단에서 금액이 큰 모든 항목을 테스트 해야 함
 이때, 금액이 큰 항목은 샘플링 간격 (Interval)보다 큰 항목이며, 이를 high value threshold라고도 함
@@ -179,10 +191,15 @@ RSM KR Comment : 해당 내용은 위험이 낮은 경영자의 주장에 감사
 
 $$ Sampling \ Interval = {(Tolerable \ Misstatement \ – \ Expected \ Misstatement) \over Assurance \ Factor} $$
 
-금액이 큰 항목은 high value threshold 미만의 항목과는 별도로 테스트 되어야함. 이때, 감사인은 큰 금액의 항목에서 발견된 왜곡 표시를 전체 모집단에 투영해서는 안됨 
+---
+
+## Consideration of High Value
+
+금액이 큰 항목은 high value threshold 미만의 항목과는 별도로 테스트 되어야함. 이때, 감사인은 큰 금액의 항목에서 발견된 왜곡 표시를 전체 모집단에 투영해서는 안됨   
+
+
 해당 금액이 큰 항목을 제외한 나머지 모집단에서 샘플링 및 고액 항목을 제외한 모집단에 애한  왜곡 표시 projection이 이루어 져야함
 
----
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 RSM KR Comment : High value items (Sampe Interval 초과 item)은 별도로 모든 Item에 대해 Test 수행해야 함. Non-high value items (Sampling interval 이하의 item으로 구성 된)에 대해서 Sampling을 수행 및 Test를 하며 이에 대해 Error evaluation을 해야 하며 추정오류를 산출할 수 있음	
 ]
@@ -193,9 +210,6 @@ RSM KR Comment : High value items (Sampe Interval 초과 item)은 별도로 모�
 해당 샘플링 기법에서는 작은 단위 금액이 선택될 가능성이 낮고, 이는 통계적 비통계적 샘플링에 공통적으로 적용되는 사안임
 따라서, 과소계상이나 완전성 주장에 대한 테스팅 시, 해당 샘플링 기법을 사용하는 것은 감사 목표 달성에 적절치 않을 수 있음
 
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-RSM KR Comment : 예를 들어, 과소계상의 위험이 있는 채무 계정은 MUS가 적절한 방법은 아님
-]
 
 ---
 ### Random Selection
@@ -289,14 +303,14 @@ background-size: 10%
 
 ### Introduction
 
-ISA 530에 의한 내부 통제 테스트를 위한 샘플링 수행함에 적용됨
+(ISA 530) 내부 통제 테스트를 위한 샘플링 수행에 적용
 
 ### Sample Design
 
 기본적으로, 감사 표본을 설계시, 감사인은 감사 절차의 '목적'과 표본을 추출할 모집단의 '특성'을 고려해야함.
 모집단의 특성을 고려 시, 감사인은 관련 통제에 대한 감사인의 이해 및 모집단 중 소수 항목에 대한 테스트 내용에 기반하여 예상편차율(Expected deviation rate)을 산정 후, 감사 표본 설계 및 표본 크기를 결정함
 
-감사인은 표본의 대상이 되는 특정 내부 통제 정책 및 절차를 식별, 문서화하고, 모집단을 결정함.  또한, 감사 증거를 수집다음 위한 테스트 절차를 설계한 후, 예상되는 편차를 정의해야함
+감사인은 표본의 대상이 되는 특정 내부 통제 정책 및 절차를 식별, 문서화하고, 모집단을 결정함.  또한, 감사 증거를 수집하기 위한 테스트 절차를 설계한 후, 예상되는 편차를 정의해야함
 
 통제 테스트의 경우, 편차는 통제가 설계 또는 예상대로 작동하지 않음을 의미함
 통제 테스트를 위한 샘플을 설계 시, 감사인은 샘플링 단위를 정의해 함. (예: 통제의 수행을 입증하는 문서, 통제의 작동에 대한 증거를 제공하는 항목 또는 라인 항목) 각 샘플링 단위는 모집단에서 하나의 항목을 구성해야함
@@ -363,7 +377,7 @@ knitr::include_graphics("ToCLarge.png")
 
 ### Sample Selecton
 
-통제 테스트 시 표본을 선택하는 주요 방법은 Random selection, systematic selection 및 Haphazard selection이 있고, 가장 연관성 있는 방법은 Random 및 Haphazard selection임
+통제 테스트 시 표본을 선택하는 주요 방법은 Random selection, Systematic selection 및 Haphazard selection이 있고, 가장 연관성 있는 방법은 Random 및 Haphazard selection
 
 ### Using work of others
 
@@ -411,7 +425,7 @@ background-size: 10%
 
 ### Introduction
 
-ISA 530에 의한 속성샘플링을 수행함에 적용됨
+(ISA 530) 속성샘플링을 수행에 적용
 
 ### Sample Design
 
