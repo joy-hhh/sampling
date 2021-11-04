@@ -32,3 +32,27 @@ grViz("
       }
       
       ")
+
+grViz("
+      
+      digraph boxes_and_circles {
+      # add node statements
+      node [shape = rectangle
+            style = filled
+            fillcolor = Skyblue
+            fontname = Helvetica
+            penwidth = 2.0]
+      'High value items'; 'Non-high value items';
+      
+      node [shape = folder
+            style = filled
+            fillcolor = Beige]
+      'Total Population'; 
+      
+      edge [arrowhead = diamond]
+      'Total Population' -> 'High value items' [label = 'High']; 
+      'Total Population' -> 'Non-high value items' [label = 'Non high']; 
+      
+      }
+      
+      ")
