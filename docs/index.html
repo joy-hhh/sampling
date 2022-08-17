@@ -3,7 +3,7 @@
   <head>
     <title>RSM Orb Sampling</title>
     <meta charset="utf-8" />
-    <meta name="date" content="2021-11-05" />
+    <meta name="date" content="2022-08-30" />
     <script src="index_files/header-attrs/header-attrs.js"></script>
     <link href="index_files/tile-view/tile-view.css" rel="stylesheet" />
     <script src="index_files/tile-view/tile-view.js"></script>
@@ -43,11 +43,11 @@ background-size: cover
 
 
 # RSM Orb Sampling
-## 2021 Edition
+## 2022 Edition
 ----
 ### GAM
 ### 
-### 2021-11-05
+### 2022-08-30
 
 
 
@@ -146,34 +146,13 @@ background-size: 10%
 2. 경영진이 수정 권고에 대해 일반적으로 거부감이 있는 경우
 
 비통계적 샘플링 기법을 사용한 세부 사항에 대한 실질적인 테스트 샘플 크기는 다음의 공식에 의해 산출
-
+    
+    
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+    
 $$ Sample \ Size = {(Population \ Subject \ to \ Sampling \times Assurance \ Factor) \over (Tolerable \ Misstatement – Expected \  Misstatement)} $$ 
-
----
-
-### 3-6-9 Sample Size Expedient
-
-다음과 같은 특성이 있는 경우,비통계적 샘플링 중 다음의 특성이 있는 경우, 3-6-9 기법을 사용할 수 있음
-
-1. 비통계적 샘플링 대상 모집단의 금액이 수용 가능한 왜곡 표시의 3배 이하인 경우
-2. 예상되는 왜곡표시가 0 일때
-
-감사인은 다음 표를 사용해서 비통계적 표본의 크기를 결정할 수 있음
-
-&lt;img src="369.png" width="60%" style="display: block; margin: auto;" /&gt;
----
-
-### 3-6-9 -Con.
-
-이 샘플링 방식은 중대한 위험이 있는지 여부에 관계없이 사용이 가능함 (즉, 심각한 위험이 있는 경우와 심각한 위험이 없는 경우 모두 사용이 가능함)
-
-3-6-9 기법은 왜곡 표시가 예상되지 않는 소규모 모집단에 대해서 표본 선택을 용이하게 다음 위해서 사용이 가능함
-해당 표본 크기의 결정은 수학적인 중대한 위험의 추정에 기반하며, 통제의 운영 효율성에 대한 테스트 및 실질적인 분석 절차에 대한 의존을 기반하지 않음
-중대한 위험이 없고, 감사인이 내부 통제에 의존하며, 실질적인 분석 절차에 의존하는 경우 3-6-9 기법을 사용했을 때, 해당 기법을 사용하지 않았을때 보다 더 큰 샘플 사이즈가 추출될 수 있음
-
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-RSM KR Comment : 해당 내용은 위험이 낮은 경영자의 주장에 감사 절차를 취할 시에 적합한 방법으로 보임. 예를 들어, 계획의 부분인 계정별 위험 조서 (BP30)에서 해당 Assertion에 대한 Risk가 Low 하다는 등의 back up이 있어야 할 것으로 보임. PM의 3배수 이하인 경우에 사용 가능하며, Sample size는 위의 방법으로 결정 가능하나 표본추출 방법은 여전히 Haphazard, Systemetic, Random 등의 방법을 사용함. 하지만, 해당 결과로서 Error가 발견 된다면, 감사인은 추가적인 절차 (추가 Sample selection 등)를 취하고 Sample evaluation 을 수행해야 함
-]
 
 
 ---
@@ -207,9 +186,6 @@ $$ Sampling \ Interval = {(Tolerable \ Misstatement \ – \ Expected \ Misstatem
 
 &lt;img src="stratification.png" width="60%" style="display: block; margin: auto;" /&gt;
 ---
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-RSM KR Comment : High value items (Sampe Interval 초과 item)은 별도로 모든 Item에 대해 Test 수행해야 함. Non-high value items (Sampling interval 이하의 item으로 구성 된)에 대해서 Sampling을 수행 및 Test를 하며 이에 대해 Error evaluation을 해야 하며 추정오류를 산출할 수 있음	
-]
 
 ### Monetary Unit Selection
 
@@ -263,10 +239,6 @@ $$ Projected \ Misstatement \ = \ Misstatement \ in \ High \ Value \ Items \\\\ 
 
 ---
 
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-RSM KR Comment : Sample 에서 Test 를 수행 후 왜곡표시가 발견 되는 경우에 해당 항목에 대해서만 수정 또는 미수정을 고려하는 것은 올바른 방법이 아니며 Sample 대상에서 왜곡표시 발견 후에 이 항목이 전체 표본 (Population)에 끼치는 영향을 고려 해야 함. 전체 모집단 대비 추정오류를 계산하여 이 금액이 감사인이 허용할 만한 왜곡표시 금액인지 평가하는 과정을 거쳐야 함. 
-]
-
 ### Evaluating Results
 
 비통계적 샘플링에서 식별된 왜곡 표시에 대한 정량적 (Quantitative) 평가 시, 감사인은 표본에 대한 수용 가능한 threshold를 산출 하여, 이를 예상 왜곡표시 금액과 비교해야함
@@ -278,6 +250,38 @@ $$ Expected \ Misstatement + 10\% \ of \ (Tolerable \ Misstatement \ – \ Expec
 예상 왜곡표시 금액이 threhold 이상인 경우,  감사인은 감사 표본이 테스트 모집단에 대해 도달한 결론에 대한 합리적인 근거가 제공되었다고 볼 수 없고, 경영진에게 발견된 실제 왜곡 표시를 수정하도록 요청하거나 모집단을 추가 조사하여 모집단의 추가 왜곡 표시를 정량화하고 수정하도록 요청해야함. 이 경우 감사인은 수정된 모집단을 별도로 테스트해야함
 
 감사인이 표본이 충분하고 적합한 감사증거를 제공한다고 결론을 내린 경우, 감사인은 총 왜곡표시(즉, 수정되지 않은 실제 왜곡표시와 예상 왜곡표시의 합)를 수정되지 않은 왜곡표시 (Uncorrected misstatement) 리스트에 포함해야 함
+
+
+---
+
+### 3-6-9 Sample Size Expedient
+
+다음과 같은 특성이 있는 경우,비통계적 샘플링 중 다음의 특성이 있는 경우, 3-6-9 기법을 사용할 수 있음
+
+1. 비통계적 샘플링 대상 모집단의 금액이 수용 가능한 왜곡 표시의 3배 이하인 경우
+2. 예상되는 왜곡표시가 0 일때
+
+감사인은 다음 표를 사용해서 비통계적 표본의 크기를 결정할 수 있음
+
+&lt;br&gt;
+
+&lt;img src="369.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+### 3-6-9 -Con.
+
+이 샘플링 방식은 중대한 위험(Significant Risk)이 있는지 여부에 관계없이 사용이 가능함 (즉, 중대한 위험이 있는 경우와 중대한 위험이 없는 경우 모두 사용이 가능함)
+
+3-6-9 기법은 왜곡 표시가 예상되지 않는 소규모 모집단에 대해서 표본 선택을 용이하게 다음 위해서 사용이 가능함
+해당 표본 크기의 결정은 수학적인 중대한 위험의 추정에 기반하며, 통제의 운영 효율성에 대한 테스트 및 실질적인 분석 절차에 대한 의존을 기반하지 않음. 
+중대한 위험이 없고, 감사인이 내부 통제에 의존하며, 실질적인 분석 절차에 의존하는 경우 3-6-9 기법을 사용했을 때, 해당 기법을 사용하지 않았을때 보다 더 큰 샘플 사이즈가 추출될 수 있음
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+RSM KR Comment : PM의 3배수 이하인 경우에 사용 가능하며, Sample size는 위의 방법으로 결정 가능하나 표본추출 방법은 여전히 Haphazard, Systemetic, Random 등의 방법을 사용함. 하지만, 해당 결과로서 Error가 발견 된다면, 감사인은 추가적인 절차 (추가 Sample selection 등)를 취하고 Sample evaluation 을 수행해야 함
+]
+
 
 
 
@@ -412,19 +416,8 @@ background-size: 10%
 
 (ISA 530) 속성샘플링을 수행에 적용
 
-### Sample Design
-
 속성 샘플링은 실증 감사 절차에서 수행될 수 있고,  발생 (Occurrence) 여부를 테스트 하는데 사용됨
 속성 테스트의 결과는 조건이 존재하거나 존재하지 않음이고, 금액과 무관하게 조건의 발생 여부 자체에 동일한 가중치 (Weight)이 부여됨
-
-.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
-RSM KR Comment : Attribute sampling (속성 샘플링)은 입증 감사 시 (Not 내부통제 Test) 관련 속성의 발생 (Occurrence) 사실의 존재 유무를 Test하는 접근법이며 Yes or No로 구분되는 경우 사용하는 접근법.  
-Attribute sampling 입증 감사 자체로 충분한 감사 증거를 제공하지 않으며, 이에 따라 감사인의 주장을 확인하기 위해 입증적 분석 절차 또는 내부 통제에서 낮은 수준의 Assurance를 가졌다는 확신 후 진행할 수 있는 내용. (Low level of assurance from a substantive analytical procedure or perform tests of controls related to the assertions being tested)
-]
-
----
-
-### Sample Design - Con.
 
 속성 샘플링 결과는 Yes or No의 속성을 테스트하는 것이며, 테스트 중인 계정 잔액 또는 거래에 대해서 예외 (편차, deviation) 사항이나 금전적 왜곡 표시가 예상되지 않는 경우에만 사용
 따라서, 금전적 왜곡표시가 예상되는 경우, 감사인은 금전적 왜곡표시에 대한 대체 테스팅 절차를 추가로 고려해야함
