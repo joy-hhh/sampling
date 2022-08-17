@@ -1,15 +1,16 @@
 ---
 title: "RSM Orb Sampling"
 subtitle: "2021 Edition"  
-author: 
-  - "GAM"
+author: ""
+institute: "GAM"
 date: '2021-11-05'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
+    seal: false
     nature:
       slideNumberFormat: "%current%"
-      highlightStyle: github
+      highlightStyle: googlecode
       highlightLines: true
       ratio: 16:9
       countIncrementalSlides: true
@@ -42,6 +43,36 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
 
+class: title-slide, left, top
+background-image: url(title-slide.jpg)
+background-size: cover
+
+<style>
+.title-slide h1{
+  color: #1381B0;
+  font-size: 55px;
+  line-height: 1em;
+}
+
+.title-slide h2{
+  color: red;
+  font-size: 40px;
+  line-height: 1em;
+}
+</style>
+
+
+
+# `r rmarkdown::metadata$title`
+## `r rmarkdown::metadata$subtitle`
+----
+### `r rmarkdown::metadata$institute`
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$date`
+
+
+
+---
 # Contents
 
 ## 1. Non-statistical sampling
