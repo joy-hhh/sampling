@@ -193,11 +193,8 @@ $$ Sample \ Size = {(Population \ Subject \ to \ Sampling \times Assurance \ Fac
 #### 3. Haphazard selection
    
 비통계적 샘플링 시, 감사인은 먼저 모집단에서 금액이 큰 모든 항목을 테스트 해야 합니다.
-이때, 금액이 큰 항목은 샘플링 간격 (Interval)보다 큰 항목이며, 이를 high value threshold라고도 합니다.
+이때, 금액이 큰 항목은 Tolerable Misstatement보다 큰 항목이며, 이를 high value threshold라고도 합니다.
     
-샘플링 간격은 다음의 공식을 통해서 계산할 수 있습니다.  
-   
-$$ Sampling \ Interval = {(Tolerable \ Misstatement \ – \ Expected \ Misstatement) \over Assurance \ Factor} $$
 
 ---
 
@@ -215,21 +212,29 @@ knitr::include_graphics("stratification.png")
 ---
 
 ### Monetary Unit Selection
-  
-화폐단위 샘플링 기법은 모집단의 과소 계상에 대한 테스팅 기법은 아닙니다.   
-해당 샘플링 기법에서는 작은 단위 금액이 선택될 가능성이 낮으므로 과소계상이나 완전성 주장에 대한 테스트시, 해당 샘플링 기법을 사용하는 것은 감사 목표 달성에 적절치 않을 수 있습니다.  
+    
+MUS 기법은 모집단에서 Interval에 해당하는 항목을 체계적으로 추출하는 것을 의미합니다.
+    
+금액단위 샘플링 기법은 모집단의 과소 계상에 대한 테스팅 기법은 아닙니다.   
+해당 샘플링 기법에서는 작은 단위 금액이 선택될 가능성이 낮으므로 과소계상이나 완전성 주장에 대한 테스트시,   
+해당 샘플링 기법을 사용하는 것은 감사 목표 달성에 적절치 않을 수 있습니다.  
+    
+Interval(샘플링 간격)은 다음의 공식을 통해서 계산할 수 있습니다.  
+      
+$$ Sampling \ Interval = {(Tolerable \ Misstatement \ – \ Expected \ Misstatement) \over Assurance \ Factor} $$
+
     
 ### Random Selection
    
 감사인은 무작위 샘플링 도구를 사용하여, 무작위 샘플링을 할 수 있습니다. 이때, 감사인의 무의식적 편견의 가능성을 제거할 수 있는 이점이 있습니다.  
 
+---
 
 ### Haphazard Selection
 
 Haphazard selection시, 감사인의 의식적인 편향이나 예측 가능성(예: 찾기 어려운 항목을 피하거나 항상 페이지의 첫 번째 또는 마지막 항목을 선택하거나 피하는 것)을 피하여야 해야하고, 모집단의 모든 항목이 선택될 수 있는 기회가 있어야 합니다. 
 또한, 감사인은 모집단의 계층화 (stratification) 를 통해, 각 계층 (stratum) 금액에 비례한 필요한 표본 크기를 추출하여, 표본이 모집단을 대표할 수 있는 가능성을 증가시킬 수 있습니다.
    
----
 ### Consideration of Zero or Negative Amounts
    
 차변 잔액, 대변 잔액 및 잔액이 0인 거래의 특성이 각각 다를 수 있으므로, 이러한 항목에 대한 관련 위험 및 경영진 주장으로 인해 감사인의 고려 사항이 달라질 수 있습니다.
@@ -486,7 +491,7 @@ background-size: 10%
 실증 절차로 사용되는 속성 샘플링의 예상 편차율은 0으로 가정하고, 표본 크기는 예상편차비율이 0이라는 가정하에 설계됩니다.
     
 감사인은 다음의 테이블에 따라 샘플 크기를 결정해야 합니다
-
+    
 
 ```{r echo=FALSE, fig.cap="", fig.align='center', out.width = '60%'}
 knitr::include_graphics("Attribute.png")
